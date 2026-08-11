@@ -11,6 +11,57 @@ header {
  color: #fff;
  padding: 20px 16px;
 }
+
+     .hero {
+            width: 100%;
+            min-height: 420px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 3rem 1rem;
+            margin-bottom: 2rem;
+            color: #fff;
+            background:
+                linear-gradient(90deg, rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.35)),
+                url('https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=1600&q=80')
+                center/cover no-repeat;
+        }
+
+        .hero-content {
+            max-width: 700px;
+            text-align: center;
+        }
+
+        .hero-tag {
+            display: inline-block;
+            margin-bottom: 0.6rem;
+            padding: 0.35rem 0.8rem;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.2);
+            font-size: 0.85rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .hero h2 {
+            margin: 0 0 0.8rem;
+            font-size: 2.2rem;
+        }
+
+        .hero p {
+            margin: 0 0 1rem;
+            font-size: 1.05rem;
+        }
+
+        .hero .btn {
+            background: #fff;
+            color: #111827;
+        }
+
+        .hero .btn:hover {
+            background: #f3f4f6;
+        }
+
 nav a {
  color: #fff;
  margin-right: 12px;
