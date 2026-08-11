@@ -7,7 +7,7 @@ body {
  background: #f7f7f8;
 }
 header {
- background: #4a90e2;
+ background: violet;
  color: #fff;
  padding: 20px 16px;
 }
@@ -36,7 +36,7 @@ footer {
 }
 .btn {
  display: inline-block;
- background: #4a90e2;
+ background: violet;
  color: #fff;
  padding: 8px 12px;
  border-radius: 6px;
