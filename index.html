@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Site</title>
-   
+
 <link rel="stylesheet" href="style.css">
 
 
@@ -21,6 +21,15 @@
         </div>
     </header>
 
+        <section class="hero" aria-label="Featured section">
+        <div class="hero-content">
+            <p class="hero-tag">Новый взгляд</p>
+            <h2>Красивая секция на всю ширину</h2>
+            <p>Добавьте этот блок, чтобы сайт выглядел более живо и современно.</p>
+            <a class="btn" href="#contact">Связаться</a>
+        </div>
+    </section>
+
     <main class="container">
         <section id="home" class="card">
             <h2>Welcome</h2>
@@ -35,10 +44,29 @@
 
         <section id="contact" class="card">
             <h2>Contact</h2>
+            <h2>Contact</h2>
+
             <form id="contactForm">
-                <label>Name<br><input type="text" name="name" placeholder="Your name" required></label><br><br>
-                <label>Email<br><input type="email" name="email" placeholder="you@example.com" required></label><br><br>
-                <label>Message<br><textarea name="message" rows="4" placeholder="A short message"></textarea></label><br><br>
+                <label>Name<br>
+                    <input type="text" name="name" placeholder="Your name" required>
+                </label>
+                <br>
+                <br>
+
+                <label>
+                    Phone
+                    <br>
+                    <input type="phone" name="phone" placeholder="(123) 456-7890">
+                </label>
+
+                <br><br>
+
+                <label>Email<br>
+                    <input type="email" name="email" placeholder="you@example.com" required>
+                </label>
+                    <br><br>
+                <label>Message<br>
+             <textarea name="message" rows="4" placeholder="A short message"></textarea></label><br><br>
                 <button class="btn" type="submit">Send</button>
             </form>
             <div id="response" style="margin-top:12px;color:green"></div>
@@ -47,6 +75,7 @@
 
     <footer>
         <div class="container">© Simple Site — Built for quick notes</div>
+
     </footer>
 
     <script>
@@ -56,6 +85,7 @@
             this.reset();
         });
     </script>
+
 </body>
 </html>
 
